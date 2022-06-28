@@ -1,0 +1,119 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: #333;
+
+}
+
+li {
+  display: inline-block;
+  float: left;
+  text-align: center;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a:hover{
+  background-color: #111;
+}
+h1 {
+  background-color: #333;
+  color: white;
+  padding: 15px 16px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+div.box,h1.box{
+  background-image: url(pexels-micah-boerma-1032117.jpg);
+  padding-top: 0px;
+  padding: 10px;
+  margin: 100px;
+  align-items: center;
+  background-size:cover;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: impact;
+  letter-spacing: 10px;
+
+}
+div.box2,h1.box2{
+  background-image: url(pexels-jacoby-clarke-1933524.jpg);
+  padding-top: 0px;
+  padding: 10px;
+  margin: 100px;
+  align-items: center;
+  background-size:cover;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: impact;
+  letter-spacing: 10px;
+
+
+}
+
+div.box3,h1.box3 {
+  background-image: url(pexels-ketut-subiyanto-5038843.jpg);
+  padding-top: 300px;
+  padding: 10px;
+  margin: 100px;
+  align-items: center;
+  background-size:cover;
+  color: white;
+  text-align: center;
+  font-size: 100px;
+  font-family: impact;
+  letter-spacing: 10px;
+
+}
+
+label {
+  display:inline-block;
+  vertical-align: middle;
+}
+
+input {
+  display: inline;
+}
+
+.submit {
+  width: initial;
+  position: initial;
+}
+h2 {
+  align-items: center;
+  text-align: center;
+
+}
+
+fieldset.classes{
+  display: block;
+  vertical-align: middle;
+}
+
+table,th,td{
+  border: 3px grey solid;
+  margin: 100px 0px 0px 200px;
+  background-color: #e8e8e8;
+  opacity: .95;
+}
+th,td{
+  text-align: center;
+  padding:10px;
+}
+
+footer{
+  text-align: center;
+}
